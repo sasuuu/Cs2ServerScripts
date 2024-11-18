@@ -8,7 +8,7 @@ You have to setup port forwarding in your router configuration to forward port s
 1. Copy `server.cfg` file to Cs2 cfg folder in Steam Library, eg. `C:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg`.
 2. Replace `<SERVER_NAME>`, `<SERVER_RCON_PASSWORD>` and `<SERVER_PASSWORD>` variables in `server.cfg` file.
 3. (Optional) Copy `server.ps1` and `server_config.json` to Cs2 win64 folder, eg. `C:\Games\Steam\steamapps\common\Counter-Strike Global Offensive\game\bin\win64`.
-4. Replace `<STEAM_GAME_SERVER_LOGIN_TOKEN>` variable with your GSLT in `server_config.json` file, you can create Steam Game Server Login Token(GSLT) here: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers).
+4. Replace `<STEAM_GAME_SERVER_LOGIN_TOKEN>` variable with your `GSLT`(for Cs2 you have to create `GSLT` with `App ID: 730`) in `server_config.json` file, you can create Steam Game Server Login Token(GSLT) here: [Steam Game Server Account Management](https://steamcommunity.com/dev/managegameservers).
 5. (Optional) Change `ServerPort` element in `server_config.json` if you want to host Cs2 server with different port than `27015`.
 
 ## Run
